@@ -1,0 +1,327 @@
+*{margin: 0;padding: 0;-webkit-font-smoothing: antialiased;-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;text-shadow: rgba(0,0,0,.01) 0 0 1px}body{font-family: 'Rubik', sans-serif;font-size: 14px;font-weight: 400;background: #E0E0E0;color: #000000}ul{list-style: none;margin-bottom: 0px}.button{display: inline-block;background: #0e8ce4;border-radius: 5px;height: 48px;-webkit-transition: all 200ms ease;-moz-transition: all 200ms ease;-ms-transition: all 200ms ease;-o-transition: all 200ms ease;transition: all 200ms ease}.button a{display: block;font-size: 18px;font-weight: 400;line-height: 48px;color: #FFFFFF;padding-left: 35px;padding-right: 35px}.button:hover{opacity: 0.8}.cart_section{width: 100%;padding-top: 93px;padding-bottom: 111px}.cart_title{font-size: 30px;font-weight: 500}.cart_items{margin-top: 8px}.cart_list{border: solid 1px #e8e8e8;box-shadow: 0px 1px 5px rgba(0,0,0,0.1);background-color: #fff}.cart_item{width: 100%;padding: 15px;padding-right: 46px}.cart_item_image{width: 133px;height: 133px;float: left}.cart_item_image img{max-width: 100%}.cart_item_info{width: calc(100% - 133px);float: left;padding-top: 18px}.cart_item_name{margin-left: 7.53%}.cart_item_title{font-size: 14px;font-weight: 400;color: rgba(0,0,0,0.5)}.cart_item_text{font-size: 18px;margin-top: 35px}.cart_item_text span{display: inline-block;width: 20px;height: 20px;border-radius: 50%;margin-right: 11px;-webkit-transform: translateY(4px);-moz-transform: translateY(4px);-ms-transform: translateY(4px);-o-transform: translateY(4px);transform: translateY(4px)}.cart_item_price{text-align: right}.cart_item_total{text-align: right}.order_total{width: 100%;height: 60px;margin-top: 30px;border: solid 1px #e8e8e8;box-shadow: 0px 1px 5px rgba(0,0,0,0.1);padding-right: 46px;padding-left: 15px;background-color: #fff}.order_total_title{display: inline-block;font-size: 14px;color: rgba(0,0,0,0.5);line-height: 60px}.order_total_amount{display: inline-block;font-size: 18px;font-weight: 500;margin-left: 26px;line-height: 60px}.cart_buttons{margin-top: 60px;text-align: right}.cart_button_clear{display: inline-block;border: none;font-size: 18px;font-weight: 400;line-height: 48px;color: rgba(0,0,0,0.5);background: #dc893f;border: solid 1px #b2b2b2;padding-left: 35px;padding-right: 35px;outline: none;cursor: pointer;margin-right: 26px}.cart_button_clear:hover{border-color: #0e8ce4;color: #0e8ce4}.cart_button_checkout{display: inline-block;border: none;font-size: 18px;font-weight: 400;line-height: 48px;color: #FFFFFF;padding-left: 35px;padding-right: 35px;outline: none;cursor: pointer;vertical-align: top}
+
+.section-p1 {
+    padding: 40px 80px;
+  }
+  
+  .section-m1 {
+    margin: 40px 0;
+  }
+  
+  button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+  }
+  /*
+  
+  body {
+    width: 100%;
+  } */
+  
+  /* Header Items */
+  
+  * {
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    margin: 0;
+    height: 100vh;
+    
+  }
+  
+  .header {
+    background-color: rgb(19, 25, 33);
+    height: 60px;
+    color: white;
+  }
+  
+  
+  /* layout**/
+  .container {
+    width: 99%;
+    /* background-color: red; */
+    height: 100%;
+    margin: auto;
+  
+  }
+  
+  .container-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  /**logo***/
+  .logo-container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+  
+  
+    /* overflow: hidden; */
+  }
+  
+  .logo-amazon {
+    width: 120px;
+    height: 50px;
+    background: url('https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405936311_.png');
+    background-repeat: no-repeat;
+    background-position-y: -40px;
+    overflow: hidden;
+  }
+  
+  .dotin {
+    position: relative;
+    margin-left: -13px;
+    margin-top: -10px;
+    color: white;
+  }
+  
+  .border-white {
+    padding: 5px;
+    border: 1.5px solid transparent;
+  }
+  
+  .border-white:hover {
+    border: 1.5px solid #ffffff;
+  }
+  
+  /***********addresss************/
+  .address-container {
+    margin-left: 10px;
+  }
+  
+  .address-container p {
+    margin: 0;
+  }
+  
+  .icon-address {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hello {
+    font-size: 0.9rem;
+    padding-left: 20px;
+    color: white;
+  }
+  
+  .icon-location {
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+  
+  
+  /***search-container****/
+  .search-container {
+    background-color: red;
+    margin-left: 50px;
+    width: 640px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .search-container:hover {
+    outline: 3px solid orange;
+  }
+  
+  .search-select {
+    width: 60px;
+    border: none;
+    background-color: rgb(230, 227, 227);
+  }
+  
+  .search-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 3px;
+    font-size: 1.1rem;
+  }
+  
+  .search-icon {
+    width: 50px;
+    background-color: rgb(235, 160, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #000;
+  }
+  
+  
+  /***lauguage section*/
+  .language-container {
+    margin-left: 25px;
+  }
+  
+  .language-container p {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  
+  .lauguge-image {
+    width: 20px;
+  }
+  
+  .lauguge-image img {
+    width: 100%;
+  }
+  
+  
+  /***login-container***/
+  .login-container {
+    margin-left: 15px;
+  }
+  
+  .login-container p {
+    margin: 0;
+  }
+  
+  .sign-col{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .account {
+    font-weight: 900;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .return-order-container {
+    width: 65px;
+    font-size: 0.9rem;
+    margin-left: 10px;
+    margin-left: 30px;
+  }
+  
+  .return-order-container p {
+    margin: 0;
+  }
+  
+  .order {
+    font-size: 1rem;
+    font-weight: 900;
+    display: flex;
+    width: 70px;
+  }
+  
+  /****cart container***/
+  .cart-container {
+    font-size: 1.1rem;
+    display: flex;
+    margin-left: 30px;
+  }
+  
+  .cart-container i {
+    font-size: 1rem;
+  }
+  
+  .cart{
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  .logout{
+    color: white;
+    margin-left: 15px;
+  }
+  .log-out{
+    color: white;
+    font-size: 20px;
+  }
+
+  .Continue{
+    color: blue;
+  }
+
+  
+/* Footer */
+
+
+footer{
+    margin-top: 50px;
+  }
+  
+  .foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+  }
+  
+  .foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  ul{
+    margin-top: 20px;
+  }
+  
+  ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+  }
+  
+  .foot-panel3{
+    background-color:black;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  
+    .logo{
+        background-image: url("https://d24v5oonnj2ncn.cloudfront.net/wp-content/uploads/2018/10/16030301/Amazon-Logo-Black.jpg");
+        height: 50px;
+        background-size: cover;
+        width: 100px;
+        
+    }
+  
+    .foot-panel4{
+        background-color: #0f1111;
+        color: white;
+        height: 76px;
+        font-size: 0.7rem;
+        text-align: center;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+  
+    .pages{
+        padding-top: 23px;
+    }
+  
+    .copyright{
+        padding-top: 5px;   
+    }
